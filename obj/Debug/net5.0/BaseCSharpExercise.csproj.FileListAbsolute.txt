@@ -1,0 +1,16 @@
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.exe
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.deps.json
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.runtimeconfig.json
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.runtimeconfig.dev.json
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.dll
+C:\Users\bulik\projects\BaseCSharpExercise\bin\Debug\net5.0\BaseCSharpExercise.pdb
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.csproj.AssemblyReference.cache
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.AssemblyInfoInputs.cache
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.AssemblyInfo.cs
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.csproj.CoreCompileInputs.cache
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.dll
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\refint\BaseCSharpExercise.dll
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.pdb
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\BaseCSharpExercise.genruntimeconfig.cache
+C:\Users\bulik\projects\BaseCSharpExercise\obj\Debug\net5.0\ref\BaseCSharpExercise.dll
