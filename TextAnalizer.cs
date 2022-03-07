@@ -40,7 +40,9 @@ namespace BaseCSharpExercise
                 File.WriteAllLines(path, lines);
             }
         }
-
+        /// <summary>
+        /// The method that print the greeting to the user writes the list of the text files in this projects
+        /// </summary>
         void Print()
         {
             Console.WriteLine("Enter a path to the file or choose a number from the list:\n");
@@ -51,7 +53,9 @@ namespace BaseCSharpExercise
                 Console.WriteLine($"\t{i + 1} - {files[i].Replace(directory, "")}");
             }
         }
-
+        /// <summary>
+        /// The method that generates the full path to the selected file from the list or the path from input
+        /// </summary>
         void GetPath()
         {
             if (path == null)
@@ -73,7 +77,11 @@ namespace BaseCSharpExercise
                 }
             }
         }
-
+        /// <summary>
+        /// Returns array of lines from file
+        /// </summary>
+        /// <param name="path">The path of the file</param>
+        /// <returns></returns>
         static string[] GetLines(string path)
         {
             try
@@ -86,7 +94,11 @@ namespace BaseCSharpExercise
                 return null; 
             }
         }
-
+        /// <summary>
+        /// Formatting text, deleting delimiters and double spaces
+        /// </summary>
+        /// <param name="line"></param>
+        /// <returns></returns>
         string FormatText(string line)
         {
             string[] delimeters = { ".", ",", "?", "!", "\"", " - ", ":", ":"};

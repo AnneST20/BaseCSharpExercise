@@ -21,7 +21,9 @@ namespace BaseCSharpExercise
             this.lines = lines;
             GetWords();
         }
-
+        /// <summary>
+        /// Splits all the words from array of lines into  a linked list
+        /// </summary>
         void GetWords()
         {
             words = new SortedList<string, List<Occurence>>();
@@ -48,7 +50,12 @@ namespace BaseCSharpExercise
                 totalIndex += length;
             }
         }
-
+        /// <summary>
+        /// Returns the next (or the last) word from the line
+        /// </summary>
+        /// <param name="line">String line from where we looking for next word</param>
+        /// <param name="endIndex">The index of the end of the word</param>
+        /// <returns></returns>
         string LineReader(string line, out int endIndex)
         {
             endIndex = line.IndexOf(" ");
@@ -65,7 +72,12 @@ namespace BaseCSharpExercise
 
             return word;
         }
-
+        /// <summary>
+        /// A method that helps to add new words to the linked list (even if key exists)
+        /// </summary>
+        /// <param name="word"></param>
+        /// <param name="line"></param>
+        /// <param name="position"></param>
         void AddWord(string word, int line, int position)
         {
             if (words.ContainsKey(word))
