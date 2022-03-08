@@ -41,9 +41,9 @@ namespace BaseCSharpExercise
                     while (endIndex != -1)
                     {
                         word = LineReader(lines[lineNumber], out endIndex);
+                        AddWord(word, lineNumber + 1, lineIndex + totalIndex);
                         index = endIndex + 1;
                         lineIndex += index;
-                        AddWord(word, lineNumber + 1, lineIndex + totalIndex);
                         lines[lineNumber] = lines[lineNumber].Substring(index);
                     }
                 }

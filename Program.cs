@@ -36,10 +36,11 @@ namespace BaseCSharpExercise
             }
 
             List<Occurence> occurences = words[input];
+            Console.WriteLine(); ;
 
             foreach (Occurence occurence in occurences)
             {
-                Console.WriteLine("\tLine {0}, index {1}", occurence.Line, occurence.Index);
+                Console.WriteLine("  Line {0}, index {1}", occurence.Line, occurence.Index);
             }
         }
     }
